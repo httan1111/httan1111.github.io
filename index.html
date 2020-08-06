@@ -1,13 +1,52 @@
-﻿<!DOCTYPE html>
-
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>
-        My Site
-    </title>
-</head>
-<body>
-    <h1>This is my GitHub Page</h1>
-</body>
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+       <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel = "stylesheet" href="style.css">
+     <style>
+        @media (min-width:500px)
+        {
+            body{
+                background-color: blueviolet;
+            }
+         }
+         @media (max-width:599px){
+             body{
+                 background-color: darkseagreen;
+             }
+         }
+        </style>
+    <title>سعر البوكسات </title>
+   </head>
+    <body>
+        
+          <h1> حساب أسعار البوكسات</h1><br>
+          <div id ="allDiv">
+              <div id="div1">  <input type="number" id="ucount" value="0" onchange="doit()">
+          <label>  عدد العلب</label><br></div>
+            
+              <div id="div2"> <input type="number" id="bcount" value="0" onchange="doit()">
+          <label>  عدد البوكسات</label><br></div>
+              <div id="div3"><input type="number" id="wcount" value="0" onchange="doit()">
+          <label>  عدد الورود</label><br></div>
+             <div id="div4"><input type="number" id="mcount" value="0" onchange="doit()">
+          <label>  قيمة المشوار</label><br></div>  
+          </div>
+                
+        <br>
+        
+        <div id="div4" > 
+        <div id="div5"> <lable> الاجمالي بدون المشور</lable><br> <dive id="totNom"> <br></dive><br> </div>
+            <br>
+           <div id="div6"> <lable> الاجمالي مع المشور</lable> <br>
+            <dive id="totm"><br></dive><br>
+            </div>
+            
+            
+        </div>
+    
+    <script src="js.js"></script>
+    
+    </body>
 </html>

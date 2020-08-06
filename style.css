@@ -1,0 +1,70 @@
+h1{
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: aqua;
+}
+
+label{
+    position: absolute;
+    margin: auto;
+    padding: 3px;
+background-color:mediumslateblue;
+    font-family:sans-serif;
+    color: aliceblue
+}
+div {
+    text-align: center;
+    font-size: 20px;
+  margin: 3px;
+}
+input{
+    tab-size: 30px;
+    font-size: 20px;
+    
+}
+#div1{
+    background-color:greenyellow
+}#div2{
+    background-color: deepskyblue
+}
+#div3{
+    background-color: aquamarine
+}
+#div4{
+    background-color: beige
+}
+#div5{
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+}
+#div6{
+    background-color:chocolate;
+    margin: 5px;
+    padding: 5px;
+    color: aliceblue
+}
+#totNom{
+    font-size: 32px;
+    color: red;
+    font-size-adjust: auto;
+    font-family:sans-serif;
+    font-feature-settings: normal;
+    font-language-override: normal;
+    
+    
+}
+#totm{
+    font-size: 32px;
+    color:azure;
+    font-size-adjust: auto;
+    font-family:sans-serif;
+    font-feature-settings: normal;
+    font-language-override: normal;
+    
+    
+}
+#la{
+    position:200px
+}
